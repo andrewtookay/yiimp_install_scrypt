@@ -1,5 +1,6 @@
-# Yiimp_install_scrypt (update July 07, 2018)
+# Yiimp_install_scrypt (update Avril, 2020)
 
+Site : https://www.xavatar.com
 
 Discord : https://discord.gg/zcCXjkQ
 
@@ -28,7 +29,7 @@ Connect on your VPS =>
 - git clone https://github.com/xavatar/yiimp_install_scrypt.git
 - cd yiimp_install_scrypt/
 - sudo bash install.sh (Do not run the script as root)
-- sudo bash screen-scrypt.sh (in tuto youtube, i launch the scrypt with root... it does not matter)
+- sudo bash screen-scrypt.sh (in tuto youtube, i launch the script with root... it does not matter)
 - NOT MANDATORY => sudo bash screen-stratum.sh (CONFIGURE BEFORE START this script... add or remove algo you use).
 
 Finish !

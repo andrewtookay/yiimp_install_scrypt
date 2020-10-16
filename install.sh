@@ -1004,6 +1004,8 @@
     
     define('"'"'YAAMP_LIMIT_ESTIMATE'"'"', false);
     
+    define('"'"'YAAMP_FEES_SOLO'"'"', 0.5);
+    
     define('"'"'YAAMP_FEES_MINING'"'"', 0.5);
     define('"'"'YAAMP_FEES_EXCHANGE'"'"', 2);
     define('"'"'YAAMP_FEES_RENTING'"'"', 2);
@@ -1071,6 +1073,14 @@
         '"'"'scrypt'"'"' => 20.0,
         '"'"'sha256'"'"' => 5.0,
      );
+     
+     // Sample fixed pool fees solo
+    $configFixedPoolFeesSolo = array(
+        '"'"'zr5'"'"' => 2.0,
+        '"'"'scrypt'"'"' => 20.0,
+        '"'"'sha256'"'"' => 5.0,
+        
+    );
     
     // Sample custom stratum ports
     $configCustomPorts = array(
